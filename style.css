@@ -1,0 +1,399 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    color: white;
+    padding: 1rem;
+    display: flex; /* Add flex display */
+    justify-content: space-between; /* Align items horizontally */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.nab-bar{
+    padding-right: 130px;
+}
+
+h1{
+    color: rgb(255, 154, 31);
+    padding: 1rem;
+    text-align: left;
+    padding-left:3.5em;
+    padding-right: 2em;
+}
+
+nav a {
+    color: rgb(255, 154, 31);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: left;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center align items vertically */
+}
+
+.backimg{
+    background-size: cover;
+}
+
+#aboutdisc{
+    color: rgb(204, 164, 89);
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    padding: 30px;
+    padding-left:3.5em;
+    padding-right: 2em;
+}
+
+h2{
+    color: rgb(255, 154, 31);
+    font-size: 30px;
+    text-align: center;
+    padding-right: 300px;
+}
+
+h3, h4{
+    color: rgb(242, 235, 144);
+    font-size: 25px;
+    text-align: left;
+    font-weight: 600;
+    padding-left: 14em;
+    padding-bottom: 85px;
+}
+
+h4{
+    color: rgb(242, 235, 144);
+    font-size: 25px;
+    text-align: left;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-right: 300px;
+}
+
+.item {
+    display:inline;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between; /* Align items with space in between */
+    align-items:center; /* Align items vertically */
+}
+
+
+
+.menu-img{
+    height: 2px;
+    width: 2px;
+    padding: 40px;
+}
+
+.img-container {
+    padding: 18px;
+    height: 100px;
+    width: 180px;
+    border-radius: 3em;
+    margin-left: 30px;
+    border: red;
+}
+
+
+.contact-form {
+    background-color:transparent;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.contact-form h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: rgb(240, 243, 192);
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color:rgb(255, 154, 31);
+}
+
+
+
+/* HomePage Css */
+.home-menu{
+    color: orange;
+    font-size: 30px;
+    font-style: italic;
+    padding-left: 2.9em;
+}
+
+.home-menu button{
+    width: 200px;
+    height:50px;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    background-color: rgb(199, 116, 52);
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px;
+
+}
+
+.homemenu-img{
+    height: 2px;
+    width: 2px;
+    padding-left: 35px;
+    display: flex;
+}
+
+.homeimg-container {
+    padding: 18px;
+    height: 90px;
+    width: 110px;
+    border-radius: 4em;
+    margin-left: 30px;
+    border: red;
+    box-shadow: 10px 3px 5px;
+}
+
+h5 {
+    color: rgb(255, 154, 31);
+    font-size: 30px;
+    text-align: left;
+    padding-left: 85px;
+    font-family: cursive;
+    text-shadow: 2px 8px 2px rgba(0, 0, 0, 0.5); 
+}
+
+
+.background{
+    height: 695px;
+    background: url(background.jpg);
+    background-size: cover;
+    
+}
+
+.background1{
+    height: 1025px;
+    background: url(background.jpg);
+    background-size: cover;
+    
+}
+
+
+/* Menu */
+
+.foodmain h2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.container {
+    background-image: url(https://img.freepik.com/free-photo/front-view-bowl-asian-food-with-chopsticks_23-2148382876.jpg?t=st=1718037970~exp=1718041570~hmac=e36a0a55a88a99fdd1e00a19fbb822994b8bedd627ad699a28025a94cd133bce&w=360);
+    background-size: cover;
+    height: 630px;
+    width: 800px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    margin-left: 110px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+.imgcontainer {
+    justify-content: center;
+    align-items: center;
+}
+
+.imgcontainer div {
+    margin-top: 18px;
+    margin-left: 10px;
+    font-size: 30px;
+    width: 80px; 
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#foodone {
+    height: 60px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+
+.itemcontainer div{
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 190px;
+    border-radius: 20px;
+    height: 20px;
+    font-weight: 700;
+    color: rgb(255, 154, 31);;
+}
+
+.pricecontainer div{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 20px;
+    height: 20px;
+    font-weight: 700;
+    color: #d2811e;;
+}
+
+
+
+
+
+/* Contact */
+
+.firstrow {
+    display: flex;
+}
+
+
+.secondrow {
+    display: flex;
+}
+
+.form-group {
+    margin-right: 70px; 
+}
+
+input[type="text"] {
+    height: 10px;
+    width: 300px;
+}
+
+input[type="email"] {
+    height: 10px;
+    width: 300px;
+}
+
+input[type="phone"] {
+    height: 10px;
+    width: 300px;
+}
+
+.thirdrow {
+    padding-left: 45px;
+}
+
+label {
+    color: rgb(255, 154, 31);
+    font-size: 18px;
+    display: block; 
+    padding-bottom: 10px;
+}
+
+span{
+    padding-left: 20px;
+}
+
+
+
+/* For screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    /* Adjust header layout */
+    .nab-bar {
+        padding-right: 0;
+    }
+
+    nav a {
+        padding: 0.5rem;
+    }
+
+    h1 {
+        padding-left: 40px;
+    }
+
+    #aboutdisc {
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    .home-menu{
+        padding-left: 40px;
+    }
+
+    h5{
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    .itemcontainer div,
+    .pricecontainer div {
+        margin-left: 0;
+    }
+
+    /* Adjust contact form */
+    .form-group {
+        margin-right: 0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="phone"] {
+        width: 100%;
+    }
+}
+
+/* For screens larger than 1200px */
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
